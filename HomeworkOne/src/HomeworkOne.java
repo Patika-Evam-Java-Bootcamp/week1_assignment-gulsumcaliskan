@@ -6,7 +6,7 @@ public class HomeworkOne {
 //    Homework Week 1
 
 /*
-    Aşağıdaki kod satırlarına göre kaç tane obje yaratılacaktır ?
+    AÃ¾aÃ°Ã½daki kod satirlarina gÃ¶re kaÃ§ tane obje yaratilacaktir ?
     
     String s1="Welcome"; 
     String s2="Welcome"; 
@@ -18,16 +18,16 @@ So, in the string pool memory they will point the same reference.
 */
     
     
-/*1)  static ve String data tipinde değişken yaratalım. Ve değeri <<code>> olsun.*/
+/*1)  static ve String data tipinde degisken yaratalim. Ve degeri <<code>> olsun.*/
 
 //Created a static and String data type which the value of variable is code.
     static String code = "code";
     
 /* 2)   
-Dönüş tipi String olan ve String[] parametre alan bir metod yazalım. 
-Gelen parametrenin içinde en az 5 farklı String olsun. 
-Her bir eleman içinde static olarak belirlediğimiz value içeriyor 
-mu içermiyor mu koşulunu kontrol etsin. 
+DÃ¶nÃ¼Ã¾ tipi String olan ve String[] parametre alan bir metod yazalim. 
+Gelen parametrenin iÃ§inde en az 5 farkli String olsun. 
+Her bir eleman iÃ§inde static olarak belirledigimiz value iÃ§eriyor 
+mu iÃ§ermiyor mu kosulunu kontrol etsin. 
 */
     
 /*Takes an array of Strings and return the first String that contains
@@ -37,21 +37,21 @@ code.*/
         for(String item : strArray){
             if(item.contains(code)){
                 return "The value of the String that contains the defined value is\n"
-                		+ "(Tanımlı value'yu içeren String değer): " + item;
+                		+ "(Tanimli value'yu iceren String deger): " + item;
             }
         }
         return "It is not found the value of the String that contains the defined value.\n"
-        		+ "(Tanımlı value'yu içeren String değer bulunamadı.)";
+        		+ "(Tanimli value'yu iceren String deger bulunamadi.)";
     }
 
 
  /*3)
-Main metod içerisinde metoda göndereceğimiz parametreleri 
-kullanıcıdan Scanner ile input olarak alalım. Metod 
-içerisinde belirlenen static <<code>> stringini içeren 
-String bulunsun, bulunan String metoddan döndürülsün. 
-(1 tane String belirlediğimiz değeri içeriyor olacak) 
-Console'a "Tanımlı value yu içeren 
+Main metod iÃ§erisinde metoda gÃ¶nderecegimiz parametreleri 
+kullanicidan Scanner ile input olarak alalim. Metod 
+iÃ§erisinde belirlenen static <<code>> stringini iÃ§eren 
+String bulunsun, bulunan String metoddan dÃ¶ndÃ¼rÃ¼lsÃ¼n. 
+(1 tane String belirledigimiz degeri iÃ§eriyor olacak) 
+Console'a "Tanimli value yu iÃ§eren 
 String deger: " + <<String_deger_adi>> 
 */
     
